@@ -81,3 +81,7 @@ git push --follow-tags
 ## License
 
 MIT
+
+## Community
+
+- Thanks to the [LINUX DO](https://linux.do/) community for providing the discussion environment.
