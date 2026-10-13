@@ -1,0 +1,42 @@
+{
+  "name": "dsh-sidebar-toggle",
+  "version": "0.1.0",
+  "description": "Quickly toggle DSH sidebar grouping between workspace and flat list via Alt+R or clicking the section header title (Sessions / Workspaces).",
+  "license": "MIT",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "src",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs && node --check lib/index.js && node --check lib/client.js",
+    "prepare": "npm run build"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "sidebar",
+    "toggle",
+    "workspace",
+    "sessions"
+  ]
+}
