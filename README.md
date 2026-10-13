@@ -82,6 +82,6 @@ git push --follow-tags
 
 MIT
 
-## Community
+## 社区
 
-- Thanks to the [LINUX DO](https://linux.do/) community for providing the discussion environment.
+- 感谢 [LINUX DO](https://linux.do/) 社区提供的交流环境。
