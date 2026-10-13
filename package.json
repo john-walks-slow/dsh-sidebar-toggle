@@ -1,7 +1,7 @@
 {
   "name": "dsh-sidebar-toggle",
   "version": "0.1.0",
-  "description": "Quickly toggle DSH sidebar grouping between workspace and flat list via Alt+R or clicking the section header title (Sessions / Workspaces).",
+  "description": "Quickly toggle the DeepSeek Harness Web UI sidebar grouping between workspace and flat list via Alt+R or by clicking the section header title (Sessions / Workspaces). dsh Web GUI 侧边栏分组快捷切换插件：支持按 Alt+R 快捷键或直接点击侧边栏分组标题（会话 / 工作区）在工作区分组与平铺会话列表间一键切换。",
   "license": "MIT",
   "type": "module",
   "main": "lib/index.js",
@@ -14,12 +14,16 @@
   "files": [
     "lib",
     "src",
+    "scripts",
     "cordis.patch.yml",
-    "README.md"
+    "README.md",
+    "README.en.md",
+    "LICENSE"
   ],
   "scripts": {
     "build": "node scripts/build.mjs && node --check lib/index.js && node --check lib/client.js",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "release": "npm version patch && npm pack --pack-destination /tmp"
   },
   "dsh": {
     "bundle": {
@@ -37,6 +41,25 @@
     "sidebar",
     "toggle",
     "workspace",
-    "sessions"
-  ]
+    "sessions",
+    "group-by",
+    "flat-list",
+    "shortcut",
+    "web-ui",
+    "侧边栏",
+    "工作区",
+    "会话列表",
+    "分组切换",
+    "平铺视图",
+    "快捷键"
+  ],
+  "author": "johnnren",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john-walks-slow/dsh-sidebar-toggle.git"
+  },
+  "homepage": "https://github.com/john-walks-slow/dsh-sidebar-toggle#readme",
+  "bugs": {
+    "url": "https://github.com/john-walks-slow/dsh-sidebar-toggle/issues"
+  }
 }

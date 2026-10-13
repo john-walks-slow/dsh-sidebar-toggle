@@ -1,0 +1,5 @@
+node_modules/
+.mnemon/
+.dsh-e2e-home/
+*.tgz
+.DS_Store

@@ -1,0 +1,13 @@
+# awesome-dsh-plugin 投稿草稿（data/plugins/john-walks-slow__dsh-sidebar-toggle.yml）
+# 前置：仓库创建满 1 天（2026-10-13 创建，2026-10-14 起可提）+ 打 topic `dsh-plugin`（另加 deepseek-harness / ai-agent / sidebar / web-ui）。
+# 流程：gh repo fork awesome-dsh-plugin/awesome-dsh-plugin → 只新增这一个文件 → PR；README 勿手改（脚本生成）。
+# 硬规则：description 含 ASCII ": " 必须加引号；描述会被对着代码核，只写实际行为、不带营销词。
+# 分类：ui（Web 界面侧边栏交互增强）。
+# 搜索机制（dsh-market 实测源码）：只索引 name/npm/owner/description(en+zh)/category，
+# 不索引 README 与 npm keywords——双语描述是唯一搜索优化面，务必双语都写、keyword 密集。
+url: https://github.com/john-walks-slow/dsh-sidebar-toggle
+name: john-walks-slow/dsh-sidebar-toggle
+category: ui
+description:
+  en: 'Sidebar grouping quick-toggle for the DeepSeek Harness Web UI: switch the sidebar session browser between workspace grouping and flat session list view with the Alt+R keyboard shortcut or by clicking the sidebar section header title (Sessions / Workspaces) directly, without opening the view options menu. Pure client-side plugin with zero runtime dependencies, driving the native sidebar.workspaces slot store.'
+  zh: 'DeepSeek Harness Web GUI 侧边栏分组快捷切换插件：支持按 Alt+R 键盘快捷键或直接点击侧边栏顶部分组标题文本（会话 / 工作区 / Sessions / Workspaces），在按工作区分组（workspace）与平铺会话列表（flat）视图之间一键切换，无需展开视图选项菜单。纯客户端插件，零运行时依赖，直接调用宿主 sidebar.workspaces 槽位原生状态。'
