@@ -1,6 +1,6 @@
 {
   "name": "dsh-sidebar-toggle",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Quickly toggle the DeepSeek Harness Web UI sidebar grouping between workspace and flat list via Alt+R or by clicking the section header title (Sessions / Workspaces). dsh Web GUI 侧边栏分组快捷切换插件：支持按 Alt+R 快捷键或直接点击侧边栏分组标题（会话 / 工作区）在工作区分组与平铺会话列表间一键切换。",
   "license": "MIT",
   "type": "module",
